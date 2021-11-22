@@ -1,0 +1,115 @@
+header {
+  background-color: #207fab;
+  padding: 30px;
+  color: white;
+  font-family: arial;
+}
+.logo {
+  font-weight: 700;
+  margin-right: 15px;
+}
+.header {
+  margin: 15px;
+}
+h1,
+h2 {
+  color: #207fab;
+  font-family: arial;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.discount {
+  color: #207fab;
+  font-weight: 800;
+}
+p {
+  font-family: arial;
+  margin-left: 30px;
+  font-size: 20px;
+}
+/* Here we have the properties for each button except the color and some other features */
+button {
+  border: 3px solid;
+  border-color: #ed7637;
+  color: #ed7637;
+  background-color: white;
+  font-weight: 400;
+  padding: 20px;
+  width: 230px;
+  font-size: 17px;
+  margin-left: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+/* the common rule for the social buttons */
+section button {
+  border: 1px solid;
+  border-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  width: 200px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+/* every button now has his own color */
+.social1 {
+  background-color: #853af0;
+}
+.social2 {
+  background-color: #327ded;
+}
+.social3 {
+  background-color: #f53022;
+}
+/* the footer is supposed to be simmilar to the header except the hight and the contents */
+footer {
+  background-color: #207fab;
+  height: 300px;
+  color: white;
+  font-family: arial;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.info {
+  font-weight: 700;
+}
+ul {
+  list-style-type: none;
+  font-size: large;
+}
+h3 {
+  margin-left: 15px;
+  font-size: 20px;
+}
+footer p {
+  margin-left: 15px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.testimonial {
+  height: 500px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  text-align: center;
+}
+img {
+  height: 300px;
+  width: 300px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.testimonial p {
+  margin: 0px;
+  padding: 0px;
+}
+.testimonial h2 {
+  margin-left: 0px;
+}
